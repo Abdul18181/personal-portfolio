@@ -4,7 +4,10 @@
     box-sizing: border-box;
 font-family:  'Satoshi', sans-serif;;
 } 
-
+html{
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+}
 body{
     background-color: #F5F5F5;
 }
